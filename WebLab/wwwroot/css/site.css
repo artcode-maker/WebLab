@@ -1,0 +1,22 @@
+﻿header, footer {
+    background-color: #343a40;
+}
+
+.nav-color {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.radio-margin {
+    margin-left: 20px;
+}
+
+ul.hr {
+    margin: 0;
+    padding: 0px;
+}
+
+ul.hr li {
+    display: inline;
+    margin-right: 5px;
+    padding: 0px;
+}

@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">WebLabsV06</a>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">903230</a>
+                    <a class="nav-item nav-link" href="#">Каталог</a>
+                    <a class="nav-item nav-link" href="#">Администрирование</a>
+                </div>
+                <a class="navbar-text ml-auto" href="#">
+                    0,00 руб <i class="fas fa-shopping-cart nav-color"></i> (0)
+                </a>
+                <div class="dropdown ml-4 nav-color">
+                    <div class="dropdown-toggle" id="dropdownMenuButton"
+                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="../Images/avatar.jpg" width="30" class="rounded" alt="User" />
+                    </div>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-item-text">
+                            <img src="../Images/avatar.jpg" width="50" class="rounded" alt="User" />
+                            user@mail.ru
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Мои товары</a>
+                        <a class="dropdown-item" href="#">Log off</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <h1>Лабораторная работа №1</h1>
+        <h2>Список</h2>
+        <ol type="A">
+            <li>элемент 1 списка</li>
+            <li>элемент 2 списка</li>
+        </ol>
+        <h2>Форма</h2>
+        <form method="get" action="do">
+            <div class="form-group row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="check1" name="check" value="check1" />
+                        <label class="form-check-label" for="check1">Чек-бокс 1</label><br />
+                        <input class="form-check-input" type="checkbox" id="check2" name="check" value="check2" />
+                        <label class="form-check-label" for="check2">Чек-бокс 2</label>
+                    </div>
+                </div>
+            </div>
+            <fieldset class="form-group">
+                <div class="row">
+                    <div class="col-form-label col-sm-2 pt-0"></div>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <ul class="hr">
+                                <li>
+                                    <input class="form-check-input" type="radio" name="radio" id="radio1" value="option1">
+                                    <label class="form-check-label" for="radio1">
+                                        Радио-1
+                                    </label>
+                                </li>
+                                <li class="radio-margin">
+                                    <input class="form-check-input" type="radio" name="radio" id="radio2" value="option2">
+                                    <label class="form-check-label" for="radio2">
+                                        Радио-2
+                                    </label>
+                                </li>
+                                <li class="radio-margin">
+                                    <input class="form-check-input" type="radio" name="radio" id="radio3" value="option3">
+                                    <label class="form-check-label" for="radio3">
+                                        Радио-3
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="form-group row">
+                <label for="inputName" class="col-sm-2 col-form-label">Логин:</label>
+                <div class="col-sm-10">
+                    <input class="form-control" name="Name" id="inputName" value="Введите имя">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Пароль:</label>
+                <div class="col-sm-10">
+                    <input class="form-control" name="Password" id="inputPassword" value="Введите пароль">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer class="fixed-bottom">
+        <div class="container">
+            <div class="navbar navbar-dark navbar-expand-md bg-dark">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="#">
+                        <i class="fab fa-facebook-f fa-2x"></i>
+                    </a>
+                    <a class="nav-item nav-link" href="#">
+                        <i class="fab fa-vk fa-2x"></i>
+                    </a>
+                    <a class="nav-item nav-link" href="#">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
