@@ -1,0 +1,16 @@
+﻿@await Component.InvokeAsync("Cart") 
+<div class="dropdown ml-4 nav-color">
+    <div class="dropdown-toggle" id="dropdownMenuButton"
+         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img src="Images/avatar.jpg" width="30" class="rounded" alt="User" />
+    </div>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <div class="dropdown-item-text">
+            <img src="Images/avatar.jpg" width="50" class="rounded" alt="User" />
+            user@mail.ru
+        </div>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" asp-controller="Product" asp-action="UserProducts">Мои товары</a>
+        <a class="dropdown-item" asp-area="Identity">Log off</a>
+    </div>
+</div>

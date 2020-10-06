@@ -12,30 +12,11 @@
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">WebLabsV06</a>
+                <a class="navbar-brand" asp-action="Index" asp-controller="Home">WebLabsV06</a>
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" asp-controller="Home" asp-action="Index">Lab 2</a>
-                    <a class="nav-item nav-link" asp-controller="Product" asp-action="Index">Каталог</a>
-                    <a class="nav-item nav-link" asp-area="Admin">Администрирование</a>
+                    @await Component.InvokeAsync("Menu")
                 </div>
-                <a class="navbar-text ml-auto" asp-controller="Cart" asp-action="Index">
-                    0,00 руб <i class="fas fa-shopping-cart nav-color"></i> (0)
-                </a>
-                <div class="dropdown ml-4 nav-color">
-                    <div class="dropdown-toggle" id="dropdownMenuButton"
-                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="Images/avatar.jpg" width="30" class="rounded" alt="User" />
-                    </div>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <div class="dropdown-item-text">
-                            <img src="Images/avatar.jpg" width="50" class="rounded" alt="User" />
-                            user@mail.ru
-                        </div>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" asp-controller="Product" asp-action="UserProducts">Мои товары</a>
-                        <a class="dropdown-item" asp-area="Identity">Log off</a>
-                    </div>
-                </div>
+                <partial name="_UserPartial"/>
             </nav>
         </div>
     </header>
