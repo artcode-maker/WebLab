@@ -1,16 +1,48 @@
-﻿@await Component.InvokeAsync("Cart") 
-<div class="dropdown ml-4 nav-color">
-    <div class="dropdown-toggle" id="dropdownMenuButton"
-         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <img src="Images/avatar.jpg" width="30" class="rounded" alt="User" />
-    </div>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <div class="dropdown-item-text">
-            <img src="Images/avatar.jpg" width="50" class="rounded" alt="User" />
-            user@mail.ru
+﻿@using Microsoft.AspNetCore.Identity;
+@using WebLab.DAL.Entities;
+@inject SignInManager<ApplicationUser> signInManager
+
+@if (signInManager.IsSignedIn(User))
+{
+    @await Component.InvokeAsync("Cart")
+    <div class="dropdown ml-4 nav-color">
+        <div class="dropdown-toggle" id="dropdownMenuButton"
+             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="Images/avatar.jpg" width="30" class="rounded" alt="User" />
         </div>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" asp-controller="Product" asp-action="UserProducts">Мои товары</a>
-        <a class="dropdown-item" asp-area="Identity">Log off</a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="dropdown-item-text">
+                <img src="Images/avatar.jpg" width="50" class="rounded" alt="User" />
+                @User.Identity.Name
+            </div>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" asp-controller="Product" asp-action="UserProducts">Мои товары</a>
+            <form asp-area="Identity"
+                  asp-page="/Account/Logout"
+                  asp-route-returnurl="@ViewContext.HttpContext.Request.Path">
+                <input type="submit"
+                       value="Log off"
+                       class="dropdown-item" />
+            </form>
+        </div>
     </div>
-</div>
+}
+else
+{
+    <ul class="nav navbar-nav ml-auto">
+        <li>
+            <a class="nav-item nav-link"
+               asp-area="Identity"
+               asp-page="/Account/Login">
+                Войти
+            </a>
+        </li>
+        <li>
+            <a class="nav-item nav-link"
+               asp-area="Identity"
+               asp-page="/Account/Register">
+                Зарегистрироваться
+            </a>
+        </li>
+    </ul>
+}
