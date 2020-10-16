@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebLab", "WebLab\WebLab.csproj", "{98379BA1-5595-4EAF-A800-4ED1E4F0AB58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLab.DAL", "WebLab.DAL\WebLab.DAL.csproj", "{FAE31A7A-914F-41A7-ADAC-6EA39C8501BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebLab.DAL", "WebLab.DAL\WebLab.DAL.csproj", "{FAE31A7A-914F-41A7-ADAC-6EA39C8501BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLab.Tests", "WebLab.Tests\WebLab.Tests.csproj", "{D9114BAA-C0E8-4451-80C5-0D4A016DCF6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FAE31A7A-914F-41A7-ADAC-6EA39C8501BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAE31A7A-914F-41A7-ADAC-6EA39C8501BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAE31A7A-914F-41A7-ADAC-6EA39C8501BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9114BAA-C0E8-4451-80C5-0D4A016DCF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9114BAA-C0E8-4451-80C5-0D4A016DCF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9114BAA-C0E8-4451-80C5-0D4A016DCF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9114BAA-C0E8-4451-80C5-0D4A016DCF6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

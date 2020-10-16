@@ -1,4 +1,4 @@
-﻿@model IEnumerable<LegalService>
+﻿@model ListViewModel<LegalService>
 
 @{
     ViewData["Title"] = "Юридическая помощь";
@@ -6,35 +6,45 @@
 
 <h1>Юридическая помощь</h1>
 
+@{
+    ViewData["Title"] = "Юридическая помощь"; ;
+    var categories = ViewData["Groups"] as IEnumerable<LegalServiceGroup>;
+    int currentGroup = (int)ViewData["CurrentGroup"];
+    var text = currentGroup != 0 ? categories.
+        FirstOrDefault(g => g.LegalServiceGroupId == currentGroup)?.GroupName : "Все"; }
+
 <div class="row">
-    <div class="card-deck">
-        @foreach (var item in Model)
-        {
-            <div class='card m-2 p-1 text-center col-4'>
-                <img src="~/Images/@item.Image"
-                     alt='NoImage'
-                     class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">
-                        @item.Name
-                    </h5>
-                    <p class="card-text">
-                        @item.Description
-                    </p>
-                    <div class="card-text badge badge-secondary">
-                        <h6>@item.Price рублей</h6>
-                    </div> @{ // Получение текущего адреса
-                        var request = ViewContext.HttpContext.Request;
-                        var returnUrl = request.Path + request.QueryString.ToUriComponent(); }
-                    <!--Разметка кнопки добавления в корзину-->
-                    <p class="mt-2">
-                        <a asp-action="Add"
-                           asp-controller="Cart" asp-route-id="@item.LegalServiceId" asp-route-returnUrl="@returnUrl"
-                           class="btn btn-primary">
-                            <i class="fa fa-shopping-cart"></i>В корзину</a>
-                    </p>
-                </div>
+    <div class="col-2">
+        <div class="dropdown mt-2">
+            <a class="btn btn-secondary dropdown-toggle"
+               asp-action="Index" asp-controller="LegalService"
+               role="button"
+               id="dropdownMenuLink"
+               data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false">
+                @text
+            </a>
+            <div class="dropdown-menu"
+                 aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item"
+                   asp-action="Index"
+                   asp-controller="LegalService">Все</a>
+                @foreach (var item in categories)
+                {
+                    <a class="dropdown-item"
+                       asp-action="Index"
+                       asp-controller="LegalService" asp-route-group="@item.LegalServiceGroupId"
+                       asp-route-pageNo="1">@item.GroupName</a>
+                }
             </div>
-        }
+        </div>
+    </div>
+    <div class="col-10">
+        <div class="card-deck">
+            @foreach (var item in Model)
+            {
+                <partial name="_ListItemPartial" model="@item" />
+            }
+        </div>
     </div>
 </div>

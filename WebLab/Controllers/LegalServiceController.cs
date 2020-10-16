@@ -4,22 +4,31 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WebLab.DAL.Entities;
+using WebLab.Models;
 
 namespace WebLab.Controllers
 {
     public class LegalServiceController : Controller
     {
-        List<LegalService> _legalServices;
-        List<LegalServiceGroup> _serviceGroups;
+        public List<LegalService> _legalServices;
+        public List<LegalServiceGroup> _serviceGroups;
+        public int _pageSize;
 
         public LegalServiceController()
         {
+            _pageSize = 3;
             SetupData();
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int? group, int pageNo = 1)
         {
-            return View(_legalServices);
+            //List<LegalService> items = _legalServices.Skip((pageNo - 1) * _pageSize)
+            //    .Take(_pageSize)
+            //    .ToList();
+            var services = _legalServices.Where(s => !group.HasValue || s.LegalServiceGroupId == group.Value);
+            ViewData["Groups"] = _serviceGroups;
+            ViewData["CurrentGroup"] = group ?? 0;
+            return View(ListViewModel<LegalService>.GetModel(services, pageNo, _pageSize));
         }
 
         private void SetupData()
