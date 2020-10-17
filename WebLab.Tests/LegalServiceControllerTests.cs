@@ -5,6 +5,7 @@ using WebLab.Models;
 using WebLab.DAL.Entities;
 using Xunit;
 using Moq;
+using Microsoft.AspNetCore.Http;
 
 namespace WebLab.Tests
 {
@@ -18,8 +19,13 @@ namespace WebLab.Tests
         public void ControllerGetsProperPage(int page, int qty, int id)
         {
             // Arrange
-            LegalServiceController controller = new LegalServiceController();
-            controller._legalServices = TestData.GetLegalServices();
+            var controllerContext = new ControllerContext();
+            var moqHttpContext = new Mock<HttpContext>();
+
+            moqHttpContext.Setup(c => c.Request.Headers).Returns(new HeaderDictionary());
+            controllerContext.HttpContext = moqHttpContext.Object;
+
+            var controller = new LegalServiceController() { ControllerContext = controllerContext };
 
             // Act
             ViewResult result = controller.Index(pageNo:page, group:null) as ViewResult;
@@ -66,7 +72,14 @@ namespace WebLab.Tests
         public void ControllerSelectsGroup()
         {
             // arrange
-            var controller = new LegalServiceController();
+            var controllerContext = new ControllerContext();
+            var moqHttpContext = new Mock<HttpContext>();
+
+            moqHttpContext.Setup(c => c.Request.Headers).Returns(new HeaderDictionary());
+            controllerContext.HttpContext = moqHttpContext.Object;
+
+            var controller = new LegalServiceController() { ControllerContext = controllerContext };
+
             var data = TestData.GetLegalServices();
             controller._legalServices = data;
             var comparer = Comparer<LegalService>.GetComparer((d1, d2) => d1.LegalServiceId.Equals(d2.LegalServiceId));
