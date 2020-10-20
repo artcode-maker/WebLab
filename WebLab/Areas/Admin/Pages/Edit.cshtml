@@ -1,0 +1,78 @@
+﻿@page "{id:int}"
+@model WebLab.Areas.Admin.Pages.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+@section Scripts{
+    <script src="~/js/bs-custom-file-input.js"></script>
+    <script>
+        bsCustomFileInput.init();
+    </script> }
+
+<h1>Edit</h1>
+
+<h4>LegalService</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="LegalService.LegalServiceId" />
+            <div class="form-group">
+                @if (!string.IsNullOrEmpty(Model.LegalService.Image))
+                {<img src=~/Images/@Model.LegalService.Image
+                      alt="NoSuchFile" width="150" />
+                }
+                else
+                {
+                    <h4>Файл изображения не задан</h4>
+                }
+                <div class="custom-file mt-3">
+                    <input type="file" class="custom-file-input"
+                           asp-for="Image" id="customFile">
+                    <label class="custom-file-label" for="customFile">
+                        Выберите файл изображения
+                    </label>
+                </div>
+                @* <div class="form-group">
+                    <label asp-for="LegalService.Name" class="control-label"></label>
+                    <input asp-for="LegalService.Name" class="form-control" />
+                    <span asp-validation-for="LegalService.Name" class="text-danger"></span>
+                </div>*@
+                <div class="form-group">
+                    <label asp-for="LegalService.Name" class="control-label"></label>
+                    <input asp-for="LegalService.Name" class="form-control" />
+                    <span asp-validation-for="LegalService.Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LegalService.Description" class="control-label"></label>
+                    <input asp-for="LegalService.Description" class="form-control" />
+                    <span asp-validation-for="LegalService.Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LegalService.Image" class="control-label"></label>
+                    <input asp-for="LegalService.Image" class="form-control" />
+                    <span asp-validation-for="LegalService.Image" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LegalService.Price" class="control-label"></label>
+                    <input asp-for="LegalService.Price" class="form-control" />
+                    <span asp-validation-for="LegalService.Price" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="LegalService.LegalServiceGroupId" class="control-label"></label>
+                    <select asp-for="LegalService.LegalServiceGroupId" class="form-control" asp-items="ViewBag.LegalServiceGroupId"></select>
+                    <span asp-validation-for="LegalService.LegalServiceGroupId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+

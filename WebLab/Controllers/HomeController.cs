@@ -24,6 +24,8 @@ namespace WebLab.Controllers
         }
         public ViewResult Index()
         {
+            ViewData["action"] = this.ControllerContext.RouteData.Values["action"].ToString();
+            ViewData["controller"] = this.ControllerContext.RouteData.Values["controller"].ToString();
             ViewData["Text"] = "Лабораторная работа 2";
             ViewData["lst"] = new SelectList(listDemo, "ListItemValue", "ListItemText");
             return View();

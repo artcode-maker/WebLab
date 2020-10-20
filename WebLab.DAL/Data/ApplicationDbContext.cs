@@ -11,7 +11,10 @@ namespace WebLab.DAL.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-
+            
         }
+
+        public DbSet<LegalService> LegalServices { get; set; }
+        public DbSet<LegalServiceGroup> LegalServiceGroups { get; set; }
     }
 }
