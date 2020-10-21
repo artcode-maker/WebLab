@@ -1,0 +1,76 @@
+2020-10-21 13:42:01.147 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-21 13:42:01.424 +03:00 [Information] Hosting environment: "Development"
+2020-10-21 13:42:01.463 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-21 13:42:07.925 +03:00 [Information] info: group=, page=1
+2020-10-21 13:42:09.959 +03:00 [Information] info: group=, page=2
+2020-10-21 13:42:11.859 +03:00 [Information] info: group=1, page=1
+2020-10-21 13:42:14.394 +03:00 [Information] info: group=2, page=1
+2020-10-21 14:45:38.962 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-21 14:45:39.061 +03:00 [Information] Hosting environment: "Development"
+2020-10-21 14:45:39.065 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-21 14:45:39.717 +03:00 [Information] Request: / returns status code: 200
+2020-10-21 14:45:50.315 +03:00 [Information] info: group=, page=1
+2020-10-21 14:45:50.492 +03:00 [Information] Request: /Catalog returns status code: 200
+2020-10-21 14:45:54.012 +03:00 [Information] info: group=, page=2
+2020-10-21 14:45:54.019 +03:00 [Information] Request: /Catalog/Page_2 returns status code: 200
+2020-10-21 14:45:56.461 +03:00 [Information] info: group=3, page=1
+2020-10-21 14:45:56.524 +03:00 [Information] Request: /Catalog/Page_1?group=3 returns status code: 200
+2020-10-21 14:55:31.382 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-21 14:55:31.528 +03:00 [Information] Hosting environment: "Development"
+2020-10-21 14:55:31.531 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-21 14:56:59.122 +03:00 [Information] Request: /api/LegalServices/9 returns status code: 404
+2020-10-21 15:02:44.401 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-21 15:02:44.512 +03:00 [Information] Hosting environment: "Development"
+2020-10-21 15:02:44.517 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-21 15:05:32.915 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-21 15:05:33.006 +03:00 [Information] Hosting environment: "Development"
+2020-10-21 15:05:33.014 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-21 15:07:04.013 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-21 15:07:04.159 +03:00 [Information] Hosting environment: "Development"
+2020-10-21 15:07:04.163 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-21 15:24:16.179 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-21 15:24:16.277 +03:00 [Information] Hosting environment: "Development"
+2020-10-21 15:24:16.282 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-21 15:25:31.818 +03:00 [Information] Request: /Dishes/GetDishes returns status code: 404
+2020-10-21 15:28:54.614 +03:00 [Information] Request: /Dishes/GetDishes returns status code: 404
+2020-10-21 15:29:21.303 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-21 15:29:21.397 +03:00 [Information] Hosting environment: "Development"
+2020-10-21 15:29:21.400 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-21 15:29:31.564 +03:00 [Information] Request: /api/LegalServices/undefined returns status code: 400
+2020-10-21 15:29:33.035 +03:00 [Information] Request: /api/LegalServices/undefined returns status code: 400
+2020-10-21 15:29:33.238 +03:00 [Information] Request: /api/LegalServices/undefined returns status code: 400
+2020-10-21 15:29:33.728 +03:00 [Information] Request: /api/LegalServices/undefined returns status code: 400
+2020-10-21 15:29:58.267 +03:00 [Information] Request: /api/LegalServices/undefined returns status code: 400
+2020-10-21 15:31:47.494 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-21 15:31:47.578 +03:00 [Information] Hosting environment: "Development"
+2020-10-21 15:31:47.586 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-21 15:33:30.228 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-21 15:33:30.321 +03:00 [Information] Hosting environment: "Development"
+2020-10-21 15:33:30.329 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-21 15:37:05.981 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-21 15:37:06.262 +03:00 [Information] Hosting environment: "Development"
+2020-10-21 15:37:06.264 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-21 15:37:24.142 +03:00 [Information] Request: /api/LegalServices/undefined returns status code: 400
+2020-10-21 15:37:26.488 +03:00 [Information] Request: /api/LegalServices/undefined returns status code: 400
+2020-10-21 15:37:26.829 +03:00 [Information] Request: /api/LegalServices/undefined returns status code: 400
+2020-10-21 15:37:26.976 +03:00 [Information] Request: /api/LegalServices/undefined returns status code: 400
+2020-10-21 15:37:27.802 +03:00 [Information] Request: /api/LegalServices/undefined returns status code: 400
+2020-10-21 15:37:28.087 +03:00 [Information] Request: /api/LegalServices/undefined returns status code: 400
+2020-10-21 15:37:29.053 +03:00 [Information] Request: /api/LegalServices/undefined returns status code: 400
+2020-10-21 15:37:29.335 +03:00 [Information] Request: /api/LegalServices/undefined returns status code: 400
+2020-10-21 15:39:47.459 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-21 15:39:47.543 +03:00 [Information] Hosting environment: "Development"
+2020-10-21 15:39:47.545 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-21 15:41:13.126 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-21 15:41:13.211 +03:00 [Information] Hosting environment: "Development"
+2020-10-21 15:41:13.213 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-21 15:41:23.762 +03:00 [Information] Request: /api/LegalServices/undefined returns status code: 400
+2020-10-21 15:46:47.918 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-21 15:46:48.041 +03:00 [Information] Hosting environment: "Development"
+2020-10-21 15:46:48.045 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-21 15:54:22.142 +03:00 [Information] Request: /LegalService/Index/3 returns status code: 404
+2020-10-21 15:54:27.754 +03:00 [Information] Request: /LegalServices returns status code: 404
+2020-10-21 15:54:32.738 +03:00 [Information] Request: /LegalServices/1 returns status code: 404
+2020-10-21 15:56:26.858 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-21 15:56:27.062 +03:00 [Information] Hosting environment: "Development"
+2020-10-21 15:56:27.072 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"

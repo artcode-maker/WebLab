@@ -18,6 +18,11 @@ using WebLab.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using WebLab.Models;
+using Microsoft.Extensions.Logging;
+using WebLab.Controllers;
+using Serilog;
+using System.IO;
+using WebLab.Extensions;
 
 namespace WebLab
 {
@@ -62,14 +67,26 @@ namespace WebLab
             services.AddControllersWithViews();
 
             services.AddRazorPages();
+
+            //var serviceProvider = services.BuildServiceProvider();
+            //var logger = serviceProvider.GetService<ILogger<LegalServiceController>>();
+            //services.AddSingleton(typeof(ILogger), logger);
         }
 
         public void Configure(IApplicationBuilder app, 
             IWebHostEnvironment env,
             ApplicationDbContext context,
             UserManager<ApplicationUser> userManager,
-            RoleManager<IdentityRole> roleManager)
+            RoleManager<IdentityRole> roleManager,
+            ILoggerFactory logger)
         {
+            Log.Logger = new LoggerConfiguration()
+               .MinimumLevel.Debug()
+               .WriteTo.RollingFile(Path.Combine(env.ContentRootPath, "Logs/log-{Date}.txt"))
+               .CreateLogger();
+            logger.AddSerilog();
+            //logger.AddFile("Logs/log-{Date}.txt");
+
             app.UseSession();
             DbInitializer.Seed(context, userManager, roleManager)
                 .GetAwaiter()
@@ -85,6 +102,7 @@ namespace WebLab
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
+            app.UseFileLogging();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
