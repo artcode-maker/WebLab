@@ -1,0 +1,23 @@
+﻿<h3>LegalServiceDetails</h3>
+
+@if (LegalService != null)
+{
+    <img src="@imageSrc" class="img-thumbnail" width="150" />
+    <div>
+        <p>@LegalService.LegalServiceName - @LegalService.Description</p>
+        <div class="badge badge-info ">@LegalService.Price рублей</div>
+    </div>
+}
+@code {
+    [Parameter]
+    public LegalServiceDetailsViewModel LegalService { get; set; }
+    [Parameter]
+    public EventCallback<LegalServiceDetailsViewModel> LegalServiceChanged { get; set; }
+    string imageSrc
+    {
+        get
+        {
+            return $"https://localhost:44393/Images/{LegalService.Image}";
+        }
+    }
+}

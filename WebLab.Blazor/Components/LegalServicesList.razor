@@ -1,0 +1,42 @@
+﻿@using WebLab.Blazor.Data
+
+<h3>LegalServicesList</h3>
+
+@if (LegalServices == null)
+{
+    <p>Загрузка ...</p>
+}
+else
+{
+    <div class="list-group">
+        @{
+            var i = 1;
+            foreach (var legalService in LegalServices)
+            {
+                <button type="button" class="list-group-item list-group-item-action
+                        @(SelectedId == legalService.LegalSeviceId ? "active" : "")"
+                        @onclick="@(e => Selected(e, legalService.LegalSeviceId))">
+                    @(i++) - @legalService.LegalServiceName
+                </button>
+            }
+        }
+    </div>
+}
+@code {
+    [Parameter]
+    public IEnumerable<LegalServiceListViewModel> LegalServices { get; set; }
+
+    [Parameter]
+    public EventCallback<IEnumerable<LegalServiceListViewModel>> LegalServicesChanged { get; set; }
+
+    private int SelectedId = 0;
+
+    [Parameter]
+    public EventCallback<int> SelectedObjectChanged { get; set; }
+
+    private void Selected(MouseEventArgs e, int id)
+    {
+        SelectedId = id;
+        SelectedObjectChanged.InvokeAsync(id);
+    }
+}

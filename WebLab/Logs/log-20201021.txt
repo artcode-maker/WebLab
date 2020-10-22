@@ -74,3 +74,16 @@
 2020-10-21 15:56:26.858 +03:00 [Information] Application started. Press Ctrl+C to shut down.
 2020-10-21 15:56:27.062 +03:00 [Information] Hosting environment: "Development"
 2020-10-21 15:56:27.072 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-21 16:01:38.363 +03:00 [Information] info: group=, page=1
+2020-10-21 16:01:40.290 +03:00 [Information] Request: /Cart/Add/1?returnUrl=%2FCatalog returns status code: 302
+2020-10-21 16:01:40.313 +03:00 [Information] Request: /Account/Login?ReturnUrl=%2FCart%2FAdd%2F1%3FreturnUrl%3D%252FCatalog returns status code: 404
+2020-10-21 16:01:46.690 +03:00 [Information] Request: /Cart/Add/2?returnUrl=%2FCatalog returns status code: 302
+2020-10-21 16:01:46.771 +03:00 [Information] Request: /Account/Login?ReturnUrl=%2FCart%2FAdd%2F2%3FreturnUrl%3D%252FCatalog returns status code: 404
+2020-10-21 16:01:58.771 +03:00 [Information] Request: /Cart/Add/2?returnUrl=%2FCatalog returns status code: 302
+2020-10-21 16:01:58.807 +03:00 [Information] Request: /Account/Login?ReturnUrl=%2FCart%2FAdd%2F2%3FreturnUrl%3D%252FCatalog returns status code: 404
+2020-10-21 16:02:10.293 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-21 16:02:10.308 +03:00 [Information] Request: /Identity/lib/jquery-validation/dist/jquery.validate.js returns status code: 404
+2020-10-21 16:02:10.547 +03:00 [Information] Request: /Identity/lib/jquery-validation/dist/jquery.validate.js returns status code: 404
+2020-10-21 16:02:10.688 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-21 16:02:22.346 +03:00 [Information] Request: /js/bs-custom-file-input.js returns status code: 404
+2020-10-21 16:02:22.581 +03:00 [Information] Request: /js/bs-custom-file-input.js returns status code: 404

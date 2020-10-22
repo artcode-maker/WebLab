@@ -16,7 +16,7 @@
                 @User.Identity.Name
             </div>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" asp-controller="Product" asp-action="UserProducts">Мои товары</a>
+            <a class="dropdown-item" asp-controller="Cart" asp-action="Index">Выбранные услуги</a>
             <form asp-area="Identity"
                   asp-page="/Account/Logout"
                   asp-route-returnurl="@ViewContext.HttpContext.Request.Path">

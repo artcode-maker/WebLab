@@ -1,0 +1,236 @@
+2020-10-22 13:26:16.295 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 13:26:16.414 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 13:26:16.418 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 13:26:18.981 +03:00 [Information] Request: /js/site.js?v=oSotNb3SiX4xB8zHUIkIUHhAMtmYoJNB-Hw9m8TenaQ returns status code: 304
+2020-10-22 13:28:56.659 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 13:28:56.957 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 13:28:56.966 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 13:37:12.981 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 13:37:13.089 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 13:37:13.093 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 13:37:59.789 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 13:37:59.885 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 13:37:59.890 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 13:43:51.271 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 13:43:51.371 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 13:43:51.374 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 13:47:21.423 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 13:47:21.522 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 13:47:21.528 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 13:52:39.485 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 13:52:39.562 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 13:52:39.565 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 13:58:36.463 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 13:58:36.562 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 13:58:36.567 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 13:58:50.494 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:58:52.282 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:58:52.759 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:58:53.064 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:58:53.283 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:58:53.655 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:58:53.802 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:58:54.890 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:58:55.088 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:58:55.435 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:58:55.605 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:59:05.483 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:59:05.945 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:59:16.508 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:59:16.666 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:59:17.769 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 13:59:17.904 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:00:40.131 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:00:40.306 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:00:40.527 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:01:20.796 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:01:20.960 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:01:21.144 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:01:21.475 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:01:21.590 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:01:21.790 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:01:30.522 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:02:57.168 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:08:40.233 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 14:08:40.337 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 14:08:40.341 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 14:08:51.862 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:08:52.848 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:08:53.250 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:08:53.442 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:15:47.023 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 14:15:47.151 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 14:15:47.155 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 14:16:12.919 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:16:15.183 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:16:15.491 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:17:00.035 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 14:17:00.169 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 14:17:00.174 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 14:17:19.465 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:17:46.031 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:17:58.012 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:18:02.120 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:18:16.886 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:18:25.481 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:18:27.056 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:18:27.220 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:18:28.622 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:19:05.037 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:19:05.856 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:19:06.443 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:19:08.065 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:19:10.697 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:19:11.397 +03:00 [Information] Request: /Api/LegalServices/0 returns status code: 404
+2020-10-22 14:22:55.330 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 14:22:56.373 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 14:22:56.547 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 14:26:46.489 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 14:26:46.600 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 14:26:46.603 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 14:27:45.346 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 14:27:45.454 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 14:27:45.460 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 14:30:06.396 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 14:30:06.511 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 14:30:06.515 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 14:30:30.497 +03:00 [Information] info: group=, page=1
+2020-10-22 14:30:33.884 +03:00 [Information] Request: /Cart/Add/1?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 14:30:33.977 +03:00 [Information] Request: /Account/Login?ReturnUrl=%2FCart%2FAdd%2F1%3FreturnUrl%3D%252FCatalog returns status code: 404
+2020-10-22 14:32:01.455 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 14:32:01.561 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 14:32:01.564 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 14:32:24.711 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-22 14:32:24.719 +03:00 [Information] Request: /Identity/lib/jquery-validation/dist/jquery.validate.js returns status code: 404
+2020-10-22 14:32:25.259 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-22 14:35:58.920 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 14:35:59.021 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 14:35:59.024 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 14:36:03.901 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-22 14:36:03.908 +03:00 [Information] Request: /Identity/lib/jquery-validation/dist/jquery.validate.js returns status code: 404
+2020-10-22 14:36:04.140 +03:00 [Information] Request: /Identity/lib/jquery-validation/dist/jquery.validate.js returns status code: 404
+2020-10-22 14:36:04.306 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-22 14:36:18.113 +03:00 [Information] info: group=, page=1
+2020-10-22 14:36:21.699 +03:00 [Information] Request: /Cart/Add/1?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 14:36:22.120 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-22 14:36:22.121 +03:00 [Information] Request: /Identity/lib/jquery-validation/dist/jquery.validate.js returns status code: 404
+2020-10-22 14:36:22.315 +03:00 [Information] Request: /Identity/lib/jquery-validation/dist/jquery.validate.js returns status code: 404
+2020-10-22 14:36:22.436 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-22 14:36:31.825 +03:00 [Information] info: group=, page=1
+2020-10-22 14:36:34.433 +03:00 [Information] Request: /Cart/Add/1?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 14:36:34.698 +03:00 [Information] Request: /Identity/lib/jquery-validation/dist/jquery.validate.js returns status code: 404
+2020-10-22 14:36:34.701 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-22 14:36:34.871 +03:00 [Information] Request: /Identity/lib/jquery-validation/dist/jquery.validate.js returns status code: 404
+2020-10-22 14:36:35.072 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-22 14:36:45.112 +03:00 [Information] User logged in.
+2020-10-22 14:36:45.148 +03:00 [Information] Request: /Identity/Account/Login?ReturnUrl=%2FCart%2FAdd%2F1%3FreturnUrl%3D%252FCatalog returns status code: 302
+2020-10-22 14:36:45.695 +03:00 [Information] Request: /Cart/Add/1?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 14:36:45.726 +03:00 [Information] info: group=, page=1
+2020-10-22 14:36:54.645 +03:00 [Information] Request: /js/bs-custom-file-input.js returns status code: 404
+2020-10-22 14:36:58.031 +03:00 [Information] Request: /Admin/Delete/1 returns status code: 302
+2020-10-22 14:37:01.308 +03:00 [Information] Request: /js/bs-custom-file-input.js returns status code: 404
+2020-10-22 14:37:10.019 +03:00 [Information] Request: /Admin/Edit/2 returns status code: 302
+2020-10-22 14:37:22.406 +03:00 [Information] info: group=, page=1
+2020-10-22 14:37:24.509 +03:00 [Information] info: group=, page=3
+2020-10-22 14:37:27.783 +03:00 [Information] Request: /Product/UserProducts returns status code: 404
+2020-10-22 14:41:20.588 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 14:41:20.696 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 14:41:20.718 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 14:41:29.106 +03:00 [Information] info: group=, page=1
+2020-10-22 14:41:29.499 +03:00 [Information] Request: /Images/consult.jpg returns status code: 304
+2020-10-22 14:41:29.616 +03:00 [Information] Request: /Images/document.jpg returns status code: 304
+2020-10-22 14:41:32.001 +03:00 [Information] Request: /Cart/Add/3?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 14:41:32.040 +03:00 [Information] info: group=, page=1
+2020-10-22 14:41:35.849 +03:00 [Information] Request: /LegalService/UserLegalService returns status code: 404
+2020-10-22 14:49:21.194 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 14:49:21.298 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 14:49:21.305 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 14:49:26.680 +03:00 [Information] info: group=, page=1
+2020-10-22 14:49:29.023 +03:00 [Information] Request: /Cart/Add/3?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 14:49:29.065 +03:00 [Information] info: group=, page=1
+2020-10-22 14:49:30.746 +03:00 [Information] Request: /Cart/Add/2?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 14:49:30.807 +03:00 [Information] info: group=, page=1
+2020-10-22 14:49:32.914 +03:00 [Information] Request: /Cart/Add/4?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 14:49:33.014 +03:00 [Information] info: group=, page=1
+2020-10-22 14:59:52.469 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 14:59:52.647 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 14:59:52.650 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 14:59:58.193 +03:00 [Information] info: group=, page=1
+2020-10-22 15:00:01.323 +03:00 [Information] Request: /Cart/Add/2?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 15:00:01.372 +03:00 [Information] info: group=, page=1
+2020-10-22 15:00:03.127 +03:00 [Information] Request: /Cart/Add/3?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 15:00:03.170 +03:00 [Information] info: group=, page=1
+2020-10-22 15:00:04.647 +03:00 [Information] Request: /Cart/Add/4?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 15:00:04.703 +03:00 [Information] info: group=, page=1
+2020-10-22 15:00:15.703 +03:00 [Information] Request: /LegalService/Create returns status code: 404
+2020-10-22 15:09:30.406 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 15:09:30.544 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 15:09:30.549 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 15:14:00.085 +03:00 [Information] Request: /Images/court.jpg returns status code: 304
+2020-10-22 15:14:01.354 +03:00 [Information] info: group=, page=1
+2020-10-22 15:14:05.721 +03:00 [Information] Request: /Cart/Add/2?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 15:14:05.785 +03:00 [Information] info: group=, page=1
+2020-10-22 15:14:07.338 +03:00 [Information] Request: /Cart/Add/3?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 15:14:07.400 +03:00 [Information] info: group=, page=1
+2020-10-22 15:22:03.002 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 15:22:03.235 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 15:22:03.240 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 15:22:13.476 +03:00 [Information] info: group=, page=1
+2020-10-22 15:22:16.433 +03:00 [Information] Request: /Cart/Add/2?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 15:22:16.714 +03:00 [Information] info: group=, page=1
+2020-10-22 15:22:26.179 +03:00 [Information] Request: /Cart/Delete/2 returns status code: 404
+2020-10-22 15:24:23.884 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 15:24:23.993 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 15:24:23.996 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 15:24:29.403 +03:00 [Information] info: group=, page=1
+2020-10-22 15:24:31.795 +03:00 [Information] Request: /Cart/Add/3?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 15:24:31.828 +03:00 [Information] info: group=, page=1
+2020-10-22 15:24:35.654 +03:00 [Information] Request: /Cart/Add/4?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 15:24:35.729 +03:00 [Information] info: group=, page=1
+2020-10-22 15:24:41.580 +03:00 [Information] Request: /Cart/Delete/4 returns status code: 404
+2020-10-22 15:26:04.346 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 15:26:04.443 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 15:26:04.451 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 15:26:10.631 +03:00 [Information] info: group=, page=1
+2020-10-22 15:26:12.939 +03:00 [Information] Request: /Cart/Add/4?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 15:26:12.997 +03:00 [Information] info: group=, page=1
+2020-10-22 15:26:14.563 +03:00 [Information] Request: /Cart/Add/3?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 15:26:14.596 +03:00 [Information] info: group=, page=1
+2020-10-22 15:29:49.649 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-22 15:29:49.761 +03:00 [Information] Hosting environment: "Development"
+2020-10-22 15:29:49.764 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-22 15:29:55.194 +03:00 [Information] info: group=, page=1
+2020-10-22 15:29:58.242 +03:00 [Information] Request: /Cart/Add/2?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 15:29:58.278 +03:00 [Information] info: group=, page=1
+2020-10-22 15:30:00.799 +03:00 [Information] Request: /Cart/Add/3?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 15:30:00.843 +03:00 [Information] info: group=, page=1
+2020-10-22 15:30:06.404 +03:00 [Information] Request: /Cart/Delete/3 returns status code: 302
+2020-10-22 15:30:14.751 +03:00 [Information] User logged out.
+2020-10-22 15:30:14.753 +03:00 [Information] Request: /Identity/Account/Logout?returnurl=%2F returns status code: 302
+2020-10-22 15:30:18.022 +03:00 [Information] info: group=, page=1
+2020-10-22 15:30:19.899 +03:00 [Information] Request: /Cart/Add/2?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 15:30:20.330 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-22 15:30:20.332 +03:00 [Information] Request: /Identity/lib/jquery-validation/dist/jquery.validate.js returns status code: 404
+2020-10-22 15:30:20.650 +03:00 [Information] Request: /Identity/lib/jquery-validation/dist/jquery.validate.js returns status code: 404
+2020-10-22 15:30:20.687 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-22 15:30:25.536 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-22 15:30:25.538 +03:00 [Information] Request: /Identity/lib/jquery-validation/dist/jquery.validate.js returns status code: 404
+2020-10-22 15:30:25.899 +03:00 [Information] Request: /Identity/lib/jquery-validation/dist/jquery.validate.js returns status code: 404
+2020-10-22 15:30:26.051 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-22 15:30:40.611 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-22 15:30:40.614 +03:00 [Information] Request: /Identity/lib/jquery-validation/dist/jquery.validate.js returns status code: 404
+2020-10-22 15:30:41.002 +03:00 [Information] Request: /Identity/lib/jquery-validation/dist/jquery.validate.js returns status code: 404
+2020-10-22 15:30:41.028 +03:00 [Information] Request: /Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js returns status code: 404
+2020-10-22 15:30:53.707 +03:00 [Information] User created a new account with password.
+2020-10-22 15:30:53.963 +03:00 [Information] Request: /Identity/Account/Register returns status code: 302
+2020-10-22 15:31:02.125 +03:00 [Information] Request: /Cart/Delete/2 returns status code: 302
+2020-10-22 15:31:04.972 +03:00 [Information] info: group=, page=1
+2020-10-22 15:31:08.562 +03:00 [Information] Request: /Cart/Add/3?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 15:31:08.605 +03:00 [Information] info: group=, page=1
+2020-10-22 15:31:10.908 +03:00 [Information] Request: /Cart/Add/2?returnUrl=%2FCatalog returns status code: 302
+2020-10-22 15:31:10.957 +03:00 [Information] info: group=, page=1
+2020-10-22 15:31:14.293 +03:00 [Information] Request: /Cart/Delete/2 returns status code: 302
+2020-10-22 15:31:15.337 +03:00 [Information] Request: /Cart/Delete/3 returns status code: 302
+2020-10-22 15:31:17.092 +03:00 [Information] info: group=, page=1
+2020-10-22 15:31:23.816 +03:00 [Information] User logged out.
+2020-10-22 15:31:23.816 +03:00 [Information] Request: /Identity/Account/Logout?returnurl=%2F returns status code: 302

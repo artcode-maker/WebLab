@@ -39,5 +39,18 @@ namespace WebLab.Controllers
             }
             return Redirect(returnUrl);
         }
+
+        [Authorize]
+        public IActionResult Delete(int id)
+        {
+            _cart = HttpContext.Session.Get<Cart>(cartKey);
+            var item = context.LegalServices.Find(id);
+            if (item != null)
+            {
+                _cart.RemoveFromCart(item.LegalServiceId);
+                HttpContext.Session.Set<Cart>(cartKey, _cart);
+            }
+            return RedirectToAction(nameof(Index));
+        }
     }
 }
