@@ -5,7 +5,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Администрирование</h1>
 
 <p class="mt-2">
     <a asp-page="Create" class="btn btn-outline-info"><span class="fa fa-plus-circle"> Добавить</span></a>
@@ -13,7 +13,9 @@
 <table class="table">
     <thead>
         <tr>
-            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.LegalService[0].Image)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.LegalService[0].Name)
             </th>
@@ -21,10 +23,10 @@
                 @Html.DisplayNameFor(model => model.LegalService[0].Description)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.LegalService[0].Image)
+                @Html.DisplayNameFor(model => model.LegalService[0].Price)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.LegalService[0].Price)
+                Действие
             </th>
             <th></th>
         </tr>

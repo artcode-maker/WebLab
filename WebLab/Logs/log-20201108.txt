@@ -1,0 +1,9 @@
+2020-11-08 00:16:16.473 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-11-08 00:16:17.442 +03:00 [Information] Hosting environment: "Development"
+2020-11-08 00:16:17.445 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-11-08 00:16:17.464 +03:00 [Information] Request: / returns status code: 307
+2020-11-08 00:16:25.136 +03:00 [Information] Application is shutting down...
+2020-11-08 00:16:48.760 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-11-08 00:16:48.860 +03:00 [Information] Hosting environment: "Development"
+2020-11-08 00:16:48.864 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-11-08 00:16:54.116 +03:00 [Information] info: group=, page=1

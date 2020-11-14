@@ -3,7 +3,7 @@
 <h1>Юридическая помощь</h1>
 
 @{
-    ViewData["Title"] = "Юридическая помощь"; ;
+    ViewData["Title"] = "Юридическая помощь";
     var categories = ViewData["Groups"] as IEnumerable<LegalServiceGroup>;
     int currentGroup = (int)ViewData["CurrentGroup"];
     var text = currentGroup != 0 ? categories.

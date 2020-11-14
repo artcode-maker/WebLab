@@ -1,0 +1,4 @@
+2020-10-30 23:52:12.432 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2020-10-30 23:52:12.832 +03:00 [Information] Hosting environment: "Development"
+2020-10-30 23:52:12.834 +03:00 [Information] Content root path: "F:\БГУИР\Projects\WebLab\WebLab"
+2020-10-30 23:52:29.985 +03:00 [Information] info: group=, page=1
